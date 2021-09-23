@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  background-color: #8eacbb;
+}
+
+body {
+  margin-left: 160px;
+  margin-right:160px;
+}
+
+.header {
+  height: 145px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom:350px;
+}
+
+.header img {
+  height: 200px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.header h1 {
+  font: bold 50px 'helvetica';
+  letter-spacing: 2px;
+  margin-top: -1px;
+}
+
+.row{
+  border:2px solid white;
+  padding-bottom:20px;
+  margin-bottom:30px;
+}
+
+.teams h1{
+  margin-top:30px;
+  margin-bottom:50px;
+  font: 30px 'arial';
+  text-align: center;
+
+}
+
+/* Three columns side by side */
+.column-2{
+  float: left;
+  width: 20%;
+  margin-left: 30px;
+  margin-bottom: 25px;
+  padding: 0 8px;
+}
+
+.column-1{
+  float: left;
+  width: 20%;
+  margin-left: 100px;
+  margin-top:30px;
+  margin-bottom: 100px;
+  padding: 0 8px;
+}
+
+.column-3{
+  float: left;
+  width: 20%;
+  margin-left: 435px;
+  margin-top:30px;
+  margin-bottom: 100px;
+  padding: 0 8px;
+}
+
+/* .column-3{
+  float: left;
+  width: 20%;
+  margin-left: 30px;
+  margin-top:30px;
+  margin-bottom: 16px;
+  padding: 0 8px;
+} */
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card-1 {
+  float:left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  #float:right;
+  #margin-left: 300px;
+  #margin-right:30px;
+}
+
+.card-3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+/* .button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+} */
+
+/* .button:hover {
+  background-color: #555;
+} */
