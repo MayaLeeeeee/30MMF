@@ -4,4 +4,4 @@ In this webiste, I introduce our team's video 'Connect, To Connect' along with o
 
 When you click 'meet the teams,' it moves on to another page where you can meet the names and the general profile of the participants. There is a lack of profile photos and was replaced with an annonymous profile photo. 
 
-When you click the topic, 'Connection and Interaction,' you get an alert that you will jump to the lower part of the website. With the click, it will jump to the lower part where the first video starts. 
+When you click the topic, 'Connection and Interaction,' you get an alert (done by js) that you will jump to the lower part of the website. With the click, it will jump to the lower part where the first video starts. 
